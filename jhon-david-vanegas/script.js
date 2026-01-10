@@ -61,3 +61,16 @@ colores.splice(3, 1, "Morado");
 
 console.log(colores);
 
+
+/*Ejercicio 3 */
+
+const temperaturas = [¨15, 20, 25, 30];
+
+const farenheit = temperaturas.map(temp => (c => (c * 9/5) + 32));
+
+console.log(farenheit);
+console.log(temperaturas);
+
+
+
+
