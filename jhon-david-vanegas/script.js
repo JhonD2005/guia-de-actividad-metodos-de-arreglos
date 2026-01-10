@@ -71,6 +71,17 @@ const farenheit = temperaturas.map(temp => (c => (c * 9/5) + 32));
 console.log(farenheit);
 console.log(temperaturas);
 
+/*Ejercicio 4 */  
+
+const inventario = [5, 12, 8, 130, 44];
+
+const grandesValores = inventario.filter(n => n > 10);
+
+console.log(grandesValores);
+console.log(inventario);
+
+/*Ejercicio 5 */
+
 
 
 
