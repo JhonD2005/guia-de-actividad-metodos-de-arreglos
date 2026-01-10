@@ -51,3 +51,13 @@ herramientas.pop();
 
 console.log(herramientas);
 
+/*Ejercicio 2 */
+
+let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
+
+colores.splice(1, 0, "Naranja");
+
+colores.splice(3, 1, "Morado");
+
+console.log(colores);
+
