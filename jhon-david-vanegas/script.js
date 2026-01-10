@@ -82,6 +82,17 @@ console.log(inventario);
 
 /*Ejercicio 5 */
 
+const ventas = [100, 250, 150, 400];
+
+const totalVentas = ventas.reduce((acumulador, valor) => {
+    return acumulador + valor;
+}, 0);
+
+console.log(totalVentas);
+console.log(ventas);
+
+/*Ejercicio 6 */
+
 
 
 
