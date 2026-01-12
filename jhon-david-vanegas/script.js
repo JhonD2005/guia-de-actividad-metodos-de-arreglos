@@ -131,4 +131,13 @@ const existe = cursos.includes("JavaScript");
 
 console.log(existe);
 
+/*Ejercicio 11 */
+
+const edades = [20, 25, 19, 30];
+
+const todosMayores = edades.every(edad => edad >= 18);
+
+console.log(todosMayores);
+
+
 
