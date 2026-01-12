@@ -123,9 +123,12 @@ const indice = precios.findIndex(precio => precio === 89);
 
 console.log(indice);
 
+/*Ejercicio 10 */
 
+const cursos = ["Git", "React", "Node"];
 
+const existe = cursos.includes("JavaScript");
 
-
+console.log(existe);
 
 
