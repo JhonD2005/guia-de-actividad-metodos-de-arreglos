@@ -156,6 +156,15 @@ const todasLasFilas = filaA.concat(filaB);
 
 console.log(todasLasFilas);
 
+/*Ejercicio 14 */
+
+const palabras = ["Hola", "mundo", "JavaScript"];
+
+const texto = palabras.join(" ");
+
+console.log(texto);
+
+
 
 
 
