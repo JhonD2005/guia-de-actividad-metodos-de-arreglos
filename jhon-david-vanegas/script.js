@@ -107,6 +107,16 @@ orden.reverse();
 
 console.log(orden);
 
+/*Ejercicio 8 */
+
+const invitados = ["Juan", "Maria", "Pedro", "Luisa"];
+
+const resultado = invitados.find(nombre => nombre === "Pedro");
+
+console.log(resultado);
+
+
+
 
 
 
