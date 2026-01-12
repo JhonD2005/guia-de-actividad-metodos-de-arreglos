@@ -99,6 +99,15 @@ nombres.sort((a, b) => a.localeCompare(b));
 
 console.log(nombres);
 
+/*Ejercicio 7 */
+
+let orden = [1, 2, 3, 4, 5];
+
+orden.reverse();
+
+console.log(orden);
+
+
 
 
 
