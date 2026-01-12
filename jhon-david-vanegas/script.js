@@ -139,5 +139,15 @@ const todosMayores = edades.every(edad => edad >= 18);
 
 console.log(todosMayores);
 
+/*Ejercicio 12 */
+
+const puntajes = [5, 8, 12, 3];
+
+const existeMayor = puntajes.some(puntaje => puntaje > 10);
+
+console.log(existeMayor);
+
+
+
 
 
