@@ -64,9 +64,9 @@ console.log(colores);
 
 /*Ejercicio 3 */
 
-const temperaturas = [¨15, 20, 25, 30];
+const temperaturas = [15, 20, 25, 30];
 
-const farenheit = temperaturas.map(temp => (c => (c * 9/5) + 32));
+const farenheit = temperaturas.map(temp => (temp * 9/5) + 32);
 
 console.log(farenheit);
 console.log(temperaturas);
@@ -92,6 +92,12 @@ console.log(totalVentas);
 console.log(ventas);
 
 /*Ejercicio 6 */
+
+let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
+
+nombres.sort((a, b) => a.localeCompare(b));
+
+console.log(nombres);
 
 
 
