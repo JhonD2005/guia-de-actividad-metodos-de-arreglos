@@ -147,6 +147,16 @@ const existeMayor = puntajes.some(puntaje => puntaje > 10);
 
 console.log(existeMayor);
 
+/*Ejercicio 13 */
+
+const filaA = ["A1", "A2"];
+const filaB = ["B1", "B2"];
+
+const todasLasFilas = filaA.concat(filaB);
+
+console.log(todasLasFilas);
+
+
 
 
 
