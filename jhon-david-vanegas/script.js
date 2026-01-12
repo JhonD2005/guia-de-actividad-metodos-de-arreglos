@@ -164,6 +164,15 @@ const texto = palabras.join(" ");
 
 console.log(texto);
 
+/*Ejercicio 15 */
+
+const base = ["Elemento0", "Elemento1", "Elemento2", "Elemento3"];
+
+const subarreglo = base.slice(1, 3);
+
+console.log(subarreglo);
+
+
 
 
 
