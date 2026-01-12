@@ -115,6 +115,14 @@ const resultado = invitados.find(nombre => nombre === "Pedro");
 
 console.log(resultado);
 
+/*Ejercicio 9 */
+
+const precios = [45, 12, 89, 34];
+
+const indice = precios.findIndex(precio => precio === 89);
+
+console.log(indice);
+
 
 
 
